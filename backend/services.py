@@ -6,8 +6,7 @@ import passlib.hash as _hash
 import jwt as _jwt
 import fastapi as _fastapi
 import fastapi.security as _security
-from pathlib import Path
-from fastapi import UploadFile, File
+from fastapi import UploadFile
 import os
 
 oauth2schema = _security.OAuth2PasswordBearer(tokenUrl='/api/token')
